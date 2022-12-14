@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.form {
+  margin-left: 500px;
+  height: 5 0px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Text {
+  height: 20px;
+  width: 300px;
+  border-radius: 5px;
+  border-color: blue;
+  outline: blue;
+  -webkit-box-shadow: -3px 8px 39px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -3px 8px 39px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -3px 8px 39px 0px rgba(34, 60, 80, 0.2);
+}
+.ButAdd {
+  -webkit-box-shadow: -3px 8px 39px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -3px 8px 39px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -3px 8px 39px 0px rgba(34, 60, 80, 0.2);
+  height: 25px;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.content {
+  width: 350px;
+  margin-left: 500px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tag {
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 110px;
+  border-radius: 20px;
+  height: 25px;
+  border: none;
+  color: blue;
+  text-align: center;
+  background-color: aqua;
+  -webkit-box-shadow: -3px 8px 39px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -3px 8px 39px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -3px 8px 39px 0px rgba(34, 60, 80, 0.2);
+}
+.alal {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.deleteTags {
+  padding-bottom: 5px;
+  width: 23;
+  height: 15px;
+  border: none;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 69px;
+  margin-top: 5px;
+  color: white;
+  background: blue;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.error {
+  margin-left: 520px;
+  color: red;
+}
+.Text2 {
+  height: 20px;
+  width: 300px;
+  border-radius: 3px;
+  outline: none;
+  -webkit-box-shadow: 3px 10px 14px 10px rgba(247, 45, 0, 0.3);
+  -moz-box-shadow: 3px 10px 14px 10px rgba(247, 45, 0, 0.3);
+  box-shadow: 3px 10px 14px 10px rgba(247, 45, 0, 0.3);
 }
